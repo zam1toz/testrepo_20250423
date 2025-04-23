@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zam 페이지</title>
+</head>
+<body>
+    <header>
+        <h1>zam 웹 서비스</h1>
+    </header>
+    <main>
+        <section>
+            <h2>zam</h2>
+            <p>zam는 IT 분야에 다양한 콘텐츠를 제공합니다.</p>
+        </section>
+        <section>
+            <h2>zam의 서비스</h2>
+            <p>zam북스, zam월드, zamSQL 등에 다양한 서비스를 제공합니다.</p>
+        </section>
+        <section class="contents">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 weniv All rights reserved</p>
+    </footer>
+    <!-- script로 내용이 추가되는 경우 -->
+    <script>
+        const contents = document.querySelector('.contents');
+        contents.innerHTML = '<h2>zam 서비스 바로가기</h2><p>zam북스</p><button>바로가기</button>';
+    </script>
+</body>
+</html>
